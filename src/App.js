@@ -139,7 +139,7 @@ function App() {
                 </SecondContainer>
                 <TimeColon>
                     <Time ref={time} style={{right: "20px", top: "-30px"}}></Time>
-                    <Time2 ref={colon} style={{right: "-10px", top: "-30px"}}></Time2>
+                    <Time2 ref={colon} style={{right: "0px", top: "-30px"}}></Time2>
                     <Time ref={time2} style={{right: "-90px", top: "-30px"}}></Time>
                 </TimeColon>
             </Container>
