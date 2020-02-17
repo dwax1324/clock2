@@ -120,8 +120,8 @@ function App() {
         sec.current.style.transform = `rotate(${6 * second - 90 + milsec / 170}deg)`;
         min.current.style.transform = `rotate(${6 * minutes - 90 + second / 10}deg)`;
         hour.current.style.transform = `rotate(${30 * hours - 90 + minutes / 10}deg)`;
-        time.current.innerText = `${hours > 10 ? `${hours}` : `0${hours}`}`;
-        time2.current.innerText = ` ${minutes > 10 ? `${minutes}` : `0${minutes}`}`;
+        time.current.innerText = `${hours >= 10 ? `${hours}` : `0${hours}`}`;
+        time2.current.innerText = ` ${minutes >= 10 ? `${minutes}` : `0${minutes}`}`;
         colon.current.innerText = `:`;
     }, 1);
 
